@@ -35,8 +35,8 @@ while keep_going == "":
     fence_cost = (perimeter * cost_per_meter)
     print()
 
-    print("perimeter: {} units".format(perimeter))
-    print("fence cost: {:.2f} units".format(fence_cost))
+    print("perimeter:5 {} units".format(perimeter))
+    print("fence cost: ${:.2f}".format(fence_cost))
     print()
     
     keep_going = input("Press <enter> to keep going or any key to quit")
